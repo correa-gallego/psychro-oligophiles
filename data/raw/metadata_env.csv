@@ -1,0 +1,5 @@
+zone,temp_air_C,RH_pct,temp_rock_C,is_interior
+Exterior,18.3,75.7,14.8,False
+E,15.0,92.7,14.2,True
+T,16.1,87.5,14.1,True
+D,15.2,92.0,13.9,True

@@ -1,0 +1,61 @@
+plate_id,zone,replicate,dilution,is_tech_rep,category,colony_count,count_date,days_incubation
+OSA-E1-D1,E,1,0.1,False,TNTC,,2026-03-10,7
+OSA-E1-D2,E,1,0.01,False,Countable,154,2026-03-10,7
+OSA-E1-D2b,E,1,0.01,True,Countable,146,2026-03-10,7
+OSA-E1-D3,E,1,0.001,False,Low-count,15,2026-03-10,7
+OSA-E2-D1,E,2,0.1,False,TNTC,,2026-03-10,7
+OSA-E2-D2,E,2,0.01,False,Countable,89,2026-03-10,7
+OSA-E2-D2b,E,2,0.01,True,Countable,108,2026-03-10,7
+OSA-E2-D3,E,2,0.001,False,Low-count,10,2026-03-10,7
+OSA-E3-D1,E,3,0.1,False,TNTC,,2026-03-10,7
+OSA-E3-D2,E,3,0.01,False,Countable,143,2026-03-10,7
+OSA-E3-D2b,E,3,0.01,True,Countable,160,2026-03-10,7
+OSA-E3-D3,E,3,0.001,False,Countable,40,2026-03-10,7
+OSA-E4-D1,E,4,0.1,False,TNTC,,2026-03-10,7
+OSA-E4-D2,E,4,0.01,False,Countable,167,2026-03-10,7
+OSA-E4-D2b,E,4,0.01,True,TNTC,,2026-03-10,7
+OSA-E4-D3,E,4,0.001,False,Countable,31,2026-03-10,7
+OSA-E5-D1,E,5,0.1,False,TNTC,,2026-03-10,7
+OSA-E5-D2,E,5,0.01,False,Countable,76,2026-03-10,7
+OSA-E5-D2b,E,5,0.01,True,Countable,109,2026-03-10,7
+OSA-E5-D3,E,5,0.001,False,Low-count,13,2026-03-10,7
+OSA-T1-D1,T,1,0.1,False,Not recorded,,2026-03-10,7
+OSA-T1-D2,T,1,0.01,False,Countable,163,2026-03-10,7
+OSA-T1-D2b,T,1,0.01,True,Countable,130,2026-03-10,7
+OSA-T1-D3,T,1,0.001,False,Low-count,21,2026-03-10,7
+OSA-T2-D1,T,2,0.1,False,Not recorded,,2026-03-10,7
+OSA-T2-D2,T,2,0.01,False,Countable,194,2026-03-10,7
+OSA-T2-D2b,T,2,0.01,True,Countable,125,2026-03-10,7
+OSA-T2-D3,T,2,0.001,False,Low-count,11,2026-03-10,7
+OSA-T3-D1,T,3,0.1,False,Not recorded,,2026-03-10,7
+OSA-T3-D2,T,3,0.01,False,Countable,137,2026-03-10,7
+OSA-T3-D2b,T,3,0.01,True,Countable,123,2026-03-10,7
+OSA-T3-D3,T,3,0.001,False,Low-count,11,2026-03-10,7
+OSA-T4-D1,T,4,0.1,False,Not recorded,,2026-03-10,7
+OSA-T4-D2,T,4,0.01,False,Countable,33,2026-03-10,7
+OSA-T4-D2b,T,4,0.01,True,Countable,56,2026-03-10,7
+OSA-T4-D3,T,4,0.001,False,Low-count,7,2026-03-10,7
+OSA-T5-D1,T,5,0.1,False,Not recorded,,2026-03-10,7
+OSA-T5-D2,T,5,0.01,False,Countable,94,2026-03-10,7
+OSA-T5-D2b,T,5,0.01,True,Countable,101,2026-03-10,7
+OSA-T5-D3,T,5,0.001,False,Low-count,5,2026-03-10,7
+OSA-D1-D1,D,1,0.1,False,Not recorded,,2026-03-10,7
+OSA-D1-D2,D,1,0.01,False,Countable,95,2026-03-10,7
+OSA-D1-D2b,D,1,0.01,True,Countable,105,2026-03-10,7
+OSA-D1-D3,D,1,0.001,False,Low-count,10,2026-03-10,7
+OSA-D2-D1,D,2,0.1,False,Countable,126,2026-03-10,7
+OSA-D2-D2,D,2,0.01,False,Low-count,10,2026-03-10,7
+OSA-D2-D2b,D,2,0.01,True,Low-count,14,2026-03-10,7
+OSA-D2-D3,D,2,0.001,False,Low-count,3,2026-03-10,7
+OSA-D3-D1,D,3,0.1,False,Countable,152,2026-03-10,7
+OSA-D3-D2,D,3,0.01,False,Low-count,22,2026-03-10,7
+OSA-D3-D2b,D,3,0.01,True,Low-count,13,2026-03-10,7
+OSA-D3-D3,D,3,0.001,False,Low-count,2,2026-03-10,7
+OSA-D4-D1,D,4,0.1,False,Countable,123,2026-03-10,7
+OSA-D4-D2,D,4,0.01,False,Countable,31,2026-03-10,7
+OSA-D4-D2b,D,4,0.01,True,Low-count,24,2026-03-10,7
+OSA-D4-D3,D,4,0.001,False,Low-count,2,2026-03-10,7
+OSA-D5-D1,D,5,0.1,False,Countable,139,2026-03-10,7
+OSA-D5-D2,D,5,0.01,False,Low-count,23,2026-03-10,7
+OSA-D5-D2b,D,5,0.01,True,Countable,31,2026-03-10,7
+OSA-D5-D3,D,5,0.001,False,Zero,0,2026-03-10,7

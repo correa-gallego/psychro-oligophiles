@@ -1,0 +1,111 @@
+Organal San Antonio — Current Experiment
+Statistical report
+Generated: 2026-04-28 00:13 
+
+Design
+Zones: Entrance (E), Transition (T), Dark (D)
+Replicates: 5 per zone, 15 total
+Medium: 25% R2A agar + NaHCO3
+Incubation: 15 C, darkness, aerobic
+Colony counts: Day 7
+Morphotypes: E = 15 (3 fungal), T = 14 (2 fungal), D = 13 (1 fungal)
+CFU normalisation: estimated field-moist mass of the 200 uL sediment aliquot
+
+CFU summary
+ zone_label n     mean        sd         se      min      max
+   Entrance 5 5.712217 0.1138902 0.05093325 5.562750 5.825936
+ Transition 5 5.748210 0.3340601 0.14939621 5.217484 6.059059
+       Dark 5 4.951430 0.3808499 0.17032124 4.758005 5.630068
+
+CFU diagnostics
+Shapiro-Wilk W = 0.9369  p = 0.3445 
+Levene F = 0.4302  p = 0.6601 
+ANOVA F = 11.266  p = 0.0018 
+Eta2 = 0.652 
+Kruskal-Wallis H = 7.58  p = 0.0226 
+
+Pairwise Welch t-tests (BH-adjusted)
+             Entrance Transition
+Transition 0.82879805         NA
+Dark       0.01348331 0.01348331
+
+Pairwise Hedges' g
+               contrast   hedges_g     ci_low  ci_high
+ Entrance vs Transition -0.1442211 -1.3813455 1.101727
+       Entrance vs Dark  2.7066097  0.8705536 4.466555
+     Transition vs Dark  2.2242780  0.5480012 3.824149
+
+Alpha diversity
+richness :
+  Shapiro-Wilk: p = 0.889 
+  Levene: F = 0.304  p = 0.7431 
+  ANOVA: F = 0.236  p = 0.7931 
+  Kruskal-Wallis: H = 0.538  p = 0.7641 
+
+shannon :
+  Shapiro-Wilk: p = 0.1837 
+  Levene: F = 0.636  p = 0.5465 
+  ANOVA: F = 0.81  p = 0.4676 
+  Kruskal-Wallis: H = 2.18  p = 0.3362 
+
+simpson :
+  Shapiro-Wilk: p = 0.0098 
+  Levene: F = 0.791  p = 0.4757 
+  ANOVA: F = 0.44  p = 0.6542 
+  Kruskal-Wallis: H = 2.16  p = 0.3396 
+
+Beta diversity
+NMDS stress = 0.092 
+
+Permutation test for adonis under reduced model
+Marginal effects of terms
+Permutation: free
+Number of permutations: 999
+
+adonis2(formula = cross_hell ~ zone_label, data = cross_meta, permutations = 999, method = "bray", by = "margin")
+           Df SumOfSqs      R2      F Pr(>F)    
+zone_label  2  0.78696 0.57338 8.0639  0.001 ***
+Residual   12  0.58554 0.42662                  
+Total      14  1.37250 1.00000                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+               contrast        R2   F_stat p_value p_adj
+ Entrance vs Transition 0.5090415 8.294657   0.009 0.016
+       Entrance vs Dark 0.5391753 9.360180   0.012 0.016
+     Transition vs Dark 0.4655270 6.968015   0.016 0.016
+
+Betadisper ANOVA F = 1.257  p = 0.3194 
+Betadisper permutation F = 1.257  p = 0.334 
+
+SIMPER top contributors per comparison
+          comparison cluster contribution         sd cumulative p_value mean_A mean_B    group_A    group_B
+       Entrance_Dark    CL03   0.09674797 0.05790400  0.1831510   0.033   75.6   36.0   Entrance       Dark
+       Entrance_Dark    CL04   0.09382464 0.04941876  0.3607680   0.059   59.8   26.4   Entrance       Dark
+       Entrance_Dark    CL15   0.07175151 0.08844830  0.4965988   0.009    0.0   27.2   Entrance       Dark
+       Entrance_Dark    CL02   0.05590781 0.03881111  0.6024364   0.586   42.2   29.2   Entrance       Dark
+       Entrance_Dark    CL20   0.03287255 0.03528035  0.6646666   0.002   11.8    0.0   Entrance       Dark
+ Entrance_Transition    CL04   0.08344267 0.05945591  0.1470048   0.178   59.8   23.4   Entrance Transition
+ Entrance_Transition    CL03   0.07523546 0.05738149  0.2795506   0.540   75.6   52.2   Entrance Transition
+ Entrance_Transition    CL02   0.06557344 0.04949974  0.3950744   0.185   42.2   20.0   Entrance Transition
+ Entrance_Transition    CL09   0.06402625 0.04259913  0.5078724   0.006    0.0   31.6   Entrance Transition
+ Entrance_Transition    CL07   0.04840533 0.03665436  0.5931503   0.037    2.6   26.6   Entrance Transition
+     Transition_Dark    CL15   0.07487453 0.09529039  0.1220056   0.002    0.0   27.2 Transition       Dark
+     Transition_Dark    CL09   0.07378938 0.04708819  0.2422429   0.001   31.6    0.0 Transition       Dark
+     Transition_Dark    CL03   0.07064142 0.03767874  0.3573507   0.708   52.2   36.0 Transition       Dark
+     Transition_Dark    CL04   0.06567293 0.05146247  0.4643626   0.885   23.4   26.4 Transition       Dark
+     Transition_Dark    CL02   0.05591087 0.04490947  0.5554675   0.597   20.0   29.2 Transition       Dark
+
+QC
+Mean delta: 1.8 
+Delta range: -16 to 15 
+Plates with |delta| > 10: 4 
+Mean |tech diff|: 21.4 
+Max |tech diff|: 73 
+
+Cave water control CFU/mL
+  dilution colony_count cfu_per_mL
+ undiluted          292       2920
+      1:10           21       2100
+     1:100            8       8000
+

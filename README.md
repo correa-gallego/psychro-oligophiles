@@ -4,7 +4,9 @@
 
 # Cultivable Microbial Community Structure Along a Light Gradient in a Tropical Volcaniclastic Cave
 
-**Sebastian Correa-Gallego** · B.Sc. Thesis in Biology · Universidad EAFIT · Medellín, Colombia · 2026
+**Sebastian Correa-Gallego**
+
+B.Sc. Thesis in Biology · Universidad EAFIT · Medellín, Colombia · 2026
 
 Advisor: **Dr. Nicolás Pinel Peláez**
 
@@ -66,14 +68,18 @@ psychro-oligophiles/
 
 | File | Description |
 |------|-------------|
-| `data/raw/colony_counts_exp1.csv` | Day-7 colony counts for all plates, Experiment I |
-| `data/raw/colony_counts_exp2.csv` | Day-7 colony counts for all plates, Experiment II |
+| `data/raw/colony_counts_day7.csv` | Day-7 colony counts for all plates, Experiment II |
+| `data/raw/counts_dilution_e2.csv` | Dilution-series counts, Experiment I |
+| `data/raw/cave_water_control.csv` | Fresh cave-water environmental control counts |
 | `data/raw/sediment_mass.csv` | Field-moist sediment mass per replicate, Experiment II |
-| `data/raw/morphotype_proportions_exp1.csv` | Per-plate morphotype abundance matrix, Experiment I |
-| `data/raw/morphotype_proportions_exp2.csv` | Per-plate morphotype abundance matrix, Experiment II |
+| `data/raw/morphotype_matrix_E.csv` | Per-plate morphotype abundance matrix, Entrance sector |
+| `data/raw/morphotype_matrix_T.csv` | Per-plate morphotype abundance matrix, Transition sector |
+| `data/raw/morphotype_matrix_D.csv` | Per-plate morphotype abundance matrix, Dark sector |
+| `data/raw/morphotype_counts_pilot.csv` | Morphotype abundance matrix, Experiment I |
+| `data/raw/morphotypes.csv` | Morphotype catalogue, Experiment I |
 | `data/raw/metadata_env.csv` | *In situ* abiotic conditions recorded during sampling |
-| `data/processed/pilot_analysis_table.csv` | Integrated density and diversity table, Experiment I |
 | `data/processed/current_analysis_table.csv` | Integrated density and diversity table, Experiment II |
+| `data/processed/pilot_analysis_table.csv` | Integrated density and diversity table, Experiment I |
 | `data/processed/morphotype_crosswalk_v3.csv` | Final 23-cluster cross-sector phenotypic crosswalk |
 
 ---
@@ -117,9 +123,7 @@ permit granted to Universidad EAFIT by the Autoridad Nacional de Licencias Ambie
 
 ## Citation
 
-> Correa-Gallego, S. (2026). *Cultivable Microbial Community Structure Along a Light Gradient
-> in a Tropical Volcaniclastic Cave*. B.Sc. Thesis in Biology, Universidad EAFIT, Medellín,
-> Colombia.
+Correa-Gallego, S. (2026). *Cultivable microbial community structure along a light gradient in a tropical volcaniclastic cave* [Undergraduate thesis, Universidad EAFIT]. Repositorio institucional EAFIT.
 
 ---
 

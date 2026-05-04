@@ -1,0 +1,4 @@
+dilution,dilution_factor,colony_count,volume_plated_uL
+undiluted,1,292,100
+1:10,0.1,21,100
+1:100,0.01,8,100

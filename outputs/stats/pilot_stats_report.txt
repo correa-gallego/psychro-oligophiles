@@ -1,0 +1,81 @@
+Organal San Antonio — Pilot Experiment
+Statistical report
+Generated: 2026-04-23 22:50 
+
+Design
+Zones: Light and Dark
+Replicates: 6 per zone, 12 samples total
+Single dilution: 10^-2
+Morphotypes observed: 14 of 19 described
+
+Inference
+The pilot experiment was analyzed as a two-zone design with six biological replicates per zone.
+Within-zone heterogeneity is descriptive and exploratory.
+
+CFU summary
+ zone_label n     mean         sd         se      min      max
+      Light 6 5.747503 0.38169857 0.15582779 5.066947 6.124939
+       Dark 6 5.429910 0.05803854 0.02369413 5.348954 5.514105
+
+CFU diagnostics
+Shapiro-Wilk W = 0.8509  p = 0.0377 
+Levene F = 4.1413  p = 0.0692 
+
+CFU tests
+Welch t = 2.015  df = 5.2  p = 0.0975 
+95% CI = -0.082 to 0.717 
+Wilcoxon W = 30  p = 0.06555 
+Hedges g = 1.163  [ -0.099 , 2.378 ]
+
+Alpha diversity tests
+Richness: Welch p = 0.1341  Wilcoxon p = 0.1113  Hedges g = -0.978 
+Shannon: Welch p = 0.7969  Wilcoxon p = 1  Hedges g = 0.154 
+Simpson: Welch p = 0.2916  Wilcoxon p = 0.4712  Hedges g = 0.646 
+
+Beta diversity
+NMDS stress = 0.0594 
+
+Permutation test for adonis under reduced model
+Marginal effects of terms
+Permutation: free
+Number of permutations: 999
+
+adonis2(formula = comm_hell ~ zone_label, data = perm_meta, permutations = 999, method = "bray", by = "margin")
+           Df SumOfSqs      R2      F Pr(>F)  
+zone_label  1  0.11964 0.22731 2.9417  0.021 *
+Residual   10  0.40671 0.77269                
+Total      11  0.52635 1.00000                
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Betadisper ANOVA F = 5.389  p = 0.0427 
+Betadisper permutation F = 5.389  p = 0.021 
+
+SIMPER top contributors
+ morphotype contribution         sd     ratio cumulative p_value mean_Light mean_Dark
+  ORG-SA019   0.15464411 0.09580252 1.6141967  0.2521553   0.002  58.500000 32.500000
+  ORG-SA001   0.09583431 0.06352146 1.5086919  0.4084181   0.015  31.666667  6.666667
+  ORG-SA015   0.07233978 0.02828023 2.5579632  0.5263719   0.015  29.333333  8.000000
+  ORG-SA009   0.06951163 0.02780857 2.4996479  0.6397143   0.004  22.500000 11.500000
+  ORG-SA002   0.05523339 0.03627793 1.5225067  0.7297752   0.008  17.333333  4.333333
+  ORG-SA007   0.03709885 0.02039756 1.8187882  0.7902668   0.018  12.500000  2.000000
+  ORG-SA008   0.03075127 0.02704180 1.1371753  0.8404083   0.040  12.000000  1.833333
+  ORG-SA003   0.02366887 0.01011201 2.3406701  0.8790017   0.029   9.166667  7.666667
+  ORG-SA004   0.01870590 0.02199877 0.8503159  0.9095026   0.193   4.000000  3.333333
+  ORG-SA005   0.01773886 0.01246153 1.4234899  0.9384268   0.071   7.666667  2.333333
+
+QC summary
+ sample_id colony_count sum_morphotypes delta pct_discrepancy
+      L-R1          180             180     0               0
+      L-R2           35              35     0               0
+      L-R3          121             121     0               0
+      L-R4          220             220     0               0
+      L-R5          400             400     0               0
+      L-R6          332             332     0               0
+      D-R1           78              78     0               0
+      D-R2           98              98     0               0
+      D-R3           74              74     0               0
+      D-R4           83              83     0               0
+      D-R5           88              88     0               0
+      D-R6           67              67     0               0
+
