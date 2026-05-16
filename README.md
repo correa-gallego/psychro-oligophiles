@@ -6,7 +6,8 @@
 
 **Cultivable Microbial Community Structure Along a Light Gradient in a Tropical Volcaniclastic Cave**
 
-Sebastian Correa-Gallego · B.Sc. Thesis in Biology · Universidad EAFIT · 2026  
+Sebastian Correa-Gallego
+B.Sc. Thesis in Biology, Universidad EAFIT, 2026  
 Advisor: Dr. Nicolás Pinel Peláez
 
 ---
